@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Meus Jogos Favoritos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides>
+    <ion-slide>
+      <ion-card>
+        <ion-img
+          src="https://www.esports.net/br/wp-content/uploads/sites/3/2022/10/pokemon-firered.jpg"
+          alt="Jogo 1"
+        ></ion-img>
+        <ion-card-header>
+          <ion-card-title>Pokemon Fire Red</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          O jogo que eu mais joguei e tenho um arquivo até hj guardado com tudo
+          dentro
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <ion-img
+          src="https://3.bp.blogspot.com/-bnVIFKTTMAE/WmsM1WDvGUI/AAAAAAAAXGo/iTMHpHmBsjktvH8NmKp9y2bSd1pzZc4uQCLcBGAs/s1600/celeste-capa.jpg"
+          alt="Jogo 2"
+        ></ion-img>
+        <ion-card-header>
+          <ion-card-title>Celeste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Fiquei todo arrepiado quando zerei o jogo é incrível em todos os
+          aspectos
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <ion-img
+          src="https://assets.nuuvem.com/image/upload/v1/products/60f97d5fc883e65b7c47c34f/sharing_images/lyhqube3kllptmos8lg5.jpg"
+          alt="Jogo 3"
+        ></ion-img>
+        <ion-card-header>
+          <ion-card-title>Assassins Creed Black Flag</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Passei muito tempo mesmo jogando explorando cada parte do jogo.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-button expand="full" [routerLink]="['/tabs/tab2']"
+    >Ver Detalhes</ion-button
+  >
+
+  <ion-input placeholder="Digite seu email"></ion-input>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Pokemon Fire Red</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Celeste</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Assassins Creed Black Flag</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
